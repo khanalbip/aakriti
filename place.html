@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+* {
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    color: #ffff;
+    font-family: "Plain Light";
+  }
+  html,
+  body {
+    font-family: "M PLUS 1p", sans-serif;
+    height: 100%;
+    width: 100%;
+    background-color:#746969 ;
+   }
+
+   
+   .navbar {
+        font-family: "M PLUS 1p", sans-serif;
+        background-color:  #443f3f;
+        color: #fff;
+        padding: 15px 0;
+        /* position: fixed; */
+        top: 0;
+        left: 0;
+        width: 100%;
+        z-index: 999;  /* Ensure navbar stays on top */
+    }
+    
+    .container {
+        display: flex;
+        gap: 850px;
+        justify-content: space-between;
+        align-items: center;
+        max-width: 1024px;
+        margin: 0 15px;  /* Center the container horizontally */
+    }
+    
+    .logo {
+        font-family: "M PLUS 1p", sans-serif;
+        font-size: 2rem;
+        font-weight: bold;
+        text-decoration: none;
+        color: inherit;
+    }
+    
+    .nav-menu {
+        font-family: "M PLUS 1p", sans-serif;
+        list-style: none;
+        display: flex;
+        margin-right:0px;
+        padding: 0;
+    }
+    
+    .nav-menu li {
+        font-family: "M PLUS 1p", sans-serif;
+        margin: 0 15px;
+    }
+    
+    .nav-menu a {
+
+        font-family: "M PLUS 1p", sans-serif;
+        text-decoration: none;
+        color: inherit;
+        transition: color 0.3s ease;
+    }
+    
+    .nav-menu a:hover {
+
+        font-family: "M PLUS 1p", sans-serif;
+        color: #808080;  /* Change hover color */
+    }
+    .oo{
+        text-align: center;
+        object-fit: cover; height: 80vh; width: 60vw; margin: 30px;
+        margin-left: 300px;
+        border-radius: 20px;
+    }
+    .o{
+        display: flex;
+    }
+    .o img{
+       
+        object-fit: cover; height: 80vh; width: 45vw; margin: 30px;
+
+    }
+    </style>
+</head>
+<body>
+    <nav class="navbar">
+        <div class="container">
+            <a href="#" class="logo">Aakriti</a>
+            <ul class="nav-menu">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Services</a></li>
+                
+            </ul>
+           
+        </div>
+     </nav>
+    <div class="oo">
+        <img src="si.jpg" alt="">
+    </div>
+    <div class="o">
+        <div><img src="hil.jpg" alt=""></div>
+        <div><img src="ph.jpg" alt=""></div>
+    </div>
+</body>
+</html>
